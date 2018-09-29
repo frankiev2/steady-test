@@ -1,5 +1,4 @@
-#FROM python:2.7-alpine
-FROM andrewfl99/steady
+FROM andrewfl99/steady:latest
 
 COPY . /app
 WORKDIR /app
